@@ -33,7 +33,19 @@
 }
 h1 { font-family: "Vitamin"}
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+</script>
 </head>
+
+
+
+
 
 <body>
 
@@ -73,16 +85,58 @@ h1 { font-family: "Vitamin"}
     <div class="container">
 
 
-        <!-- Second Featurette -->
-        <div class="featurette" id="services" style="padding-top: 50px;">
-            <img class="featurette-image img-circle img-responsive pull-left" src="/images/headshot.jpg">
-            <h1 class="featurette-heading" style="font-family:'Knewave'; font-size: 50px; margin-top: -5px;">My name is Dhruti</h1>
-            <p class="lead" style="font-size: 16px;">I’m a recent MBA grad from Yale School of Management (SOM). I’m interested in working in marketing and innovation focusing on how consumer insights can inform marketing strategy and product design. </p>
-            <p class="lead" style="font-size: 16px;">At SOM, I completed a research project with <a href=http://www.viacom.com/>Viacom Labs</a> and the <a href=http://som.yale.edu/faculty-research-centers/centers-initiatives/center-for-customer-insights>Yale Center for Customer Insights</a> to understand the limits of brand permissibility and how engaging fans through other more highly engaged fans can allow Viacom to connect with their consumers in new ways.</p>
-            <p class="lead" style="font-size: 16px;">Between my first and second year of SOM, I interned Jose Andres’ restaurant group, <a href=http://www.thinkfoodgroup.com/>ThinkFoodGroup</a>, developing products with the R&D team and creating a social media campaign with the marketing team for 25 Jose Andres concepts. </p>
-            <p class="lead" style="font-size: 16px;">Prior to SOM, I spent five years consulting for Accenture, focusing on customer experience, process design, and project management. I worked on technology, strategy, and management projects across a variety of industries and functions. </p>
-            <p class="lead" style="font-size: 16px;">If you want to get in touch or have any feedback on the site (I built this site myself!), contact me at <a href="mailto:dhrutideshpande@gmail.com">dhrutideshpande@gmail.com</a>.</p>
+       <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="featurette-heading" style="font-family: 'Knewave'; font-size: 65px;">Work Experience</h1>
+                    <large style="font-size: 17px;">A peek into my work experience. Want more details? See my entire work history in the <a href=https://dhruti-website-dhruti.c9users.io/resume.html>Resume</a> section.</large>
+            </div>
         </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item" style="padding: 50px;">
+                <a href="https://www.utexas.edu/">
+                    <img class="img-responsive" src="/images/UT1.png" alt="">
+                </a>
+                <h3 style="font-family:'Knewave';>
+                    <a href="#">The University of Texas</a>
+                </h3>
+                <p style="font-size: 15px;">I graduated with a <a href=https://www.mccombs.utexas.edu/>BBA</a> and <a href=https://liberalarts.utexas.edu/economics/>BA</a> (Economics). I was the President of the <a href=https://blantonstudentguild.wordpress.com/>Blanton Student Guild</a> and the first undergraduate finance intern at <a href=http://www.metmuseum.org/>The Metropolitan Museum of Art</a>.</p>
+            </div>
+            <div class="col-md-4 portfolio-item" style="padding: 50px;">
+                <a href="https://www.accenture.com/">
+                    <img class="img-responsive" src="/images/accenture6.png" alt="">
+                </a>
+                <h3 style="font-family:'Knewave';>
+                    <a href="#">Accenture</a>
+                </h3>
+                <p style="font-size: 15px;">I consulted for five years. I started as an Analyst and was promoted to a Consultant for designing a supply chain forcasting program.</p>
+            </div>
+            <div class="col-md-4 portfolio-item" style="padding: 50px;">
+                <a href="http://som.yale.edu/">
+                    <img class="img-responsive" src="/images/SOM.png" alt="">
+                </a>
+                <h3 style="font-family:'Knewave';>
+                    <a href="#">Yale School of Management</a>
+                </h3>
+                <p style="font-size: 15px;">I graduated with a <a href=http://som.yale.edu/>MBA</a>, focusing on marketing and innovation. During the summer I interned with <a href=http://www.thinkfoodgroup.com/>ThinkFoodGroup</a> and <a href=https://www.madfeed.co/>MAD</a>.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
         <!-- Footer -->
         <footer>
